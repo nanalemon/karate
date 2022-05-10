@@ -26,13 +26,13 @@ if (windowwidth > 768){
   var responsiveImage = [//PC用の画像
     { src: './img/index/susipaku211-app90994.jpg'},
     { src: './img/index/MAR88_meneko20140113.jpg'},
-    { src: './img/index/tachiaraiDSC02717.jpg'}
+    { src: './img/index/p7059.jpg'}
   ];
 } else {
   var responsiveImage = [//タブレットサイズ（768px）以下用の画像
     { src: './img/index/susipaku211-sp.jpg' },
     { src: './img/index/MAR88_sp.jpg' },
-    { src: './img/index/tachiaraiDSC02717.jpg' }
+    { src: './img/index/p7059_sp.jpg' }
   ];
 }
 
