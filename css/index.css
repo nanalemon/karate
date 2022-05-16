@@ -2,7 +2,7 @@
 
 /* Main-Top */
 #slider {
-  height: calc(100vh - 110px);
+  height: calc(100vh - 110px)!important;
   background-repeat: no-repeat;
   background-position:  center center;
   background-size: cover;
@@ -256,5 +256,8 @@
 .gMenu .menu-icon .navicon::before,
 .gMenu .menu-icon .navicon::after {
   background: #333;
+  }
+  #slider {
+    height: calc(100vh - 0px) !important;
   }
 }
