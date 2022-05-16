@@ -113,13 +113,16 @@ img {
     left: 0;
     right: 0;
     background-color: #fff;
-    height: 50px;
+    height: 80px;
     z-index: 10;
     box-shadow: 0 3px 6px rgba(0, 0, 0, .1);
   }
+  .header-site-menu {
+    display: none;
+  }
   .header-inner {
-    padding-left: 20px;
     padding-right: 20px;
+    padding-left: 20px;
     height: 100%;
     position: relative;
   }
@@ -128,33 +131,6 @@ img {
   }
   .header .logo-line {
     bottom: -15px;
-  }
-  .header-site-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    color: #fff;
-    background-color: #736e62;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    display: none;
-  }
-  .header-site-menu.is-show {
-    display: block;
-  }
-  .toggle-menu-button {
-    display: block;
-    width: 44px;
-    height: 34px;
-    background-image: url(../img/common/icon-menu.png);
-    background-size: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: transparent;
-    border: none;
-    border-radius: 0;
-    outline: none;
   }
   .main {
     padding-top: 50px;
